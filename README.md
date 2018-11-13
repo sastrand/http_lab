@@ -13,5 +13,7 @@ Use the requests library to interact with two APIs:
   * Of this list of samples, what language appears the most often 
     and which samples are in that language?    
 
+You can change the code however you'd like, but you should be able to complete the
+lab by filling in only the sections marked `[FILL IN HERE]`.    
 The `requests` [docs](http://docs.python-requests.org/en/master/) may be helpful.
 
