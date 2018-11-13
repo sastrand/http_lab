@@ -14,6 +14,5 @@ Use the requests library to interact with two APIs:
     and which samples are in that language?    
 
 You can change the code however you'd like, but you should be able to complete the
-lab by filling in only the sections marked `[FILL IN HERE]`.    
-The `requests` [docs](http://docs.python-requests.org/en/master/) may be helpful.
-
+lab by filling in only the sections marked `[FILL IN HERE]`. Throughout the lab,
+the `requests` [docs](http://docs.python-requests.org/en/master/) may be helpful.
