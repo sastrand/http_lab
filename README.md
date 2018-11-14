@@ -20,4 +20,4 @@ Other notes:
 * Throughout the lab, the `requests` [docs](http://docs.python-requests.org/en/master/) may be helpful.
 * The language sample strings must be passed to the `requests` get method as an argument to the `params` parameter.    
    Eg:
-   ```r = requests.get("<url>", params="q=Hello+world")```
+   ```r = requests.post("<url>", headers=<some headers>, params="q=Hello+world")```
