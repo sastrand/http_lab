@@ -14,10 +14,10 @@ Use the requests library to interact with two APIs:
     and which samples are in that language?    
 
 <hr>
-Other notes:    
+Other notes:
 
-* You can change the code however you'd like, but you should be able to complete the lab by filling in only the sections marked `[FILL IN HERE]`. 
+* You can change the code however you'd like, but you should be able to complete the lab by filling in only the sections marked `[FILL IN HERE]`.
 * Throughout the lab, the `requests` [docs](http://docs.python-requests.org/en/master/) may be helpful.
-* The language sample strings must be passed to the `requests` get method as an argument to the `params` parameter. Eg:    
-
+* The language sample strings must be passed to the `requests` get method as an argument to the `params` parameter.    
+   Eg:
    ```r = requests.get("<url>", params="q=Hello+world")```
