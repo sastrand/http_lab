@@ -20,10 +20,12 @@ def get_advice():
 
 def find_most_popular_advice(advice_list):
     """
+    This function takes a list of objects and returns the first object
+    that appears most frequently in the list.
     The `key` parameter of the `max` function takes a function to be
     applied to each element in the list. The `max` function then
-    applies the key function to each element in the list with the higest
-    result of the application of the key function.
+    applies the key function to each element in the list and returns
+    the element with the higest result of the application of the key function.
     """
     return max(advice_list, key=lambda x: advice_list.count(x))
 
