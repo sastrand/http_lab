@@ -39,6 +39,7 @@ def format_lang_string(lang_str):
 
 
 def post_language_samples():
+    headers = {"Authorization": "Bearer [REDACTED]"}
     lang_samples = ["Përshendetje Botë", "Русский компьютер", "Ahoj světe",
                     "ਕੰਪਿਊਟਰ ਵਿਗਿਆਨ", "مرحبا بالعالم", "Labas pasauli",
                     "Привет мир", "ਯੇਅ ਨਿਊ ਸ਼ੁਰੂਆਤ", "ہیلو دنیا",
